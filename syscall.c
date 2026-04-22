@@ -8,7 +8,7 @@
 #include "defs.h"
 
 /// VAMOS CRIAR UM VETOR PARA ARMAZENAR O GETCNT DE TODAS AS SYSCALLS
-int int syscall_count[23]; // temos 22 tipos de syscall e vamos ignorar o idx 0
+int syscall_count[23]; // temos 22 tipos de syscall e vamos ignorar o idx 0
 
 // Fetch the uint64 at addr from the current process.
 int
